@@ -19,7 +19,7 @@ public class WordCount {
 
         DataSet<String> text = env.fromElements(
                 "Who's there?",
-                "I think I hear them. Stand, ho! Who's there?");
+                "I think I hear them. Stand, ho! Who's there");
         text.flatMap(new MyFlatMapIterator()).groupBy(0).sum(1).print();
     }
 
