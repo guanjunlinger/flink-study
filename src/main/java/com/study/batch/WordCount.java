@@ -1,4 +1,4 @@
-package com.study;
+package com.study.batch;
 
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
@@ -9,9 +9,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-/**
- * flink run -c com.study.WordCount  D:\gitRepository\flink-study\target\fink-study-1.0-SNAPSHOT.jar
- */
 public class WordCount {
 
     public static void main(String[] args) throws Exception {
