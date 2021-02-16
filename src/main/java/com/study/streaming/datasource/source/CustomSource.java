@@ -144,7 +144,7 @@ public class CustomSource implements Source<Long, CustomSource.RangeSplit, Colle
         public InputStatus pollNext(ReaderOutput<Long> readerOutput) {
             Long current;
             if (Objects.nonNull(currentSplit) && Objects.nonNull(current = currentSplit.getCurrent())) {
-                readerOutput.collect(current);
+                readerOutput.collect(current, new Date().getTime());
                 return InputStatus.MORE_AVAILABLE;
             } else if (this.remainingSplits == null) {
                 return InputStatus.NOTHING_AVAILABLE;

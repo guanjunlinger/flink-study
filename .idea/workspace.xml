@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969d6242-9e68-468e-801b-2af709b7ae64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/streaming/datasource/source/CustomSource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flink.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/Flink.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/streaming/datasource/source/CustomSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/streaming/datasource/source/CustomSource.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,21 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.12.1/flink-core-1.12.1.jar!/org/apache/flink/api/connector/source/lib/NumberSequenceSource.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-              <folding>
-                <element signature="method#createEnumerator#0;class#NumberSequenceSource#0" />
-                <element signature="class#CheckpointSerializer#0;class#NumberSequenceSource#0" />
-                <element signature="class#SplitSerializer#0;class#NumberSequenceSource#0" />
-                <element signature="class#NumberSequenceSplit#0;class#NumberSequenceSource#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/study/streaming/datasource/CustomSource.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,24 +26,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.12.1/flink-core-1.12.1.jar!/org/apache/flink/util/NumberSequenceIterator.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="54" column="53" lean-forward="true" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/study/streaming/datasource/source/CustomSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="319" lean-forward="true" selection-start-line="319" selection-end-line="319" />
+            <state relative-caret-position="633">
+              <caret line="147" column="50" lean-forward="true" selection-start-line="147" selection-start-column="50" selection-end-line="147" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#749#750#0" expanded="true" />
                 <element signature="e#776#777#0" expanded="true" />
+                <element signature="method#createEnumerator#0;class#CustomSource#0" />
                 <element signature="e#1457#1458#0" expanded="true" />
                 <element signature="e#1484#1485#0" expanded="true" />
                 <element signature="e#2669#2670#0" expanded="true" />
@@ -71,12 +47,8 @@
                 <element signature="e#611#612#0" expanded="true" />
                 <element signature="e#642#643#0" expanded="true" />
                 <element signature="e#675#676#0" expanded="true" />
-                <element signature="class#RangeSourceReader#0;class#CustomSource#0" />
-                <element signature="method#pollNext#0;class#RangeSourceReader#0;class#CustomSource#0" />
-                <element signature="e#2089#2172#1" />
-                <element signature="e#2402#2540#1" />
                 <element signature="method#snapshotState#0;class#RangeSourceReader#0;class#CustomSource#0" />
-                <element signature="e#5869#5870#0" expanded="true" />
+                <element signature="e#5891#5892#0" expanded="true" />
                 <element signature="e#3336#3337#0" expanded="true" />
                 <element signature="e#3399#3400#0" expanded="true" />
                 <element signature="class#RangeSplitEnumerator#0;class#CustomSource#0" />
@@ -90,15 +62,6 @@
                 <element signature="e#6207#6208#0" expanded="true" />
                 <element signature="e#6239#6240#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.12/1.12.1/flink-streaming-java_2.12-1.12.1.jar!/org/apache/flink/streaming/api/environment/StreamExecutionEnvironment.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="681" column="87" selection-start-line="681" selection-start-column="76" selection-end-line="681" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -263,7 +226,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613445696495" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613446969234" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -376,7 +339,7 @@
       <workItem from="1612707917933" duration="3636000" />
       <workItem from="1613197274338" duration="7744000" />
       <workItem from="1613216791363" duration="11584000" />
-      <workItem from="1613363002120" duration="16265000" />
+      <workItem from="1613363002120" duration="17287000" />
     </task>
     <task id="LOCAL-00001" summary="DataSet">
       <created>1612711476412</created>
@@ -420,11 +383,18 @@
       <option name="project" value="LOCAL" />
       <updated>1613368700783</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="source 接口">
+      <created>1613445782723</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613445782723</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40706000" />
+    <option name="totallyTimeSpent" value="41728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
@@ -467,16 +437,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DataSet" />
     <MESSAGE value="data sink" />
-    <option name="LAST_COMMIT_MESSAGE" value="data sink" />
+    <MESSAGE value="source 接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="source 接口" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.12/1.12.1/flink-streaming-java_2.12-1.12.1.jar!/org/apache/flink/streaming/experimental/CollectSink.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.12/1.12.1/flink-streaming-java_2.12-1.12.1.jar!/org/apache/flink/streaming/api/functions/sink/DiscardingSink.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -822,6 +786,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.12.1/flink-core-1.12.1.jar!/org/apache/flink/util/NumberSequenceIterator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="54" column="53" lean-forward="true" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.12/1.12.1/flink-streaming-java_2.12-1.12.1.jar!/org/apache/flink/streaming/api/environment/StreamExecutionEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="681" column="87" selection-start-line="681" selection-start-column="76" selection-end-line="681" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.12.1/flink-core-1.12.1.jar!/org/apache/flink/api/connector/source/ReaderOutput.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.12.1/flink-core-1.12.1.jar!/org/apache/flink/api/connector/source/lib/NumberSequenceSource.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -845,28 +830,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.12.1/flink-core-1.12.1.jar!/org/apache/flink/util/NumberSequenceIterator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="54" column="53" lean-forward="true" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.12/1.12.1/flink-streaming-java_2.12-1.12.1.jar!/org/apache/flink/streaming/api/environment/StreamExecutionEnvironment.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="681" column="87" selection-start-line="681" selection-start-column="76" selection-end-line="681" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/study/streaming/datasource/source/CustomSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="319" lean-forward="true" selection-start-line="319" selection-end-line="319" />
+        <state relative-caret-position="633">
+          <caret line="147" column="50" lean-forward="true" selection-start-line="147" selection-start-column="50" selection-end-line="147" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#749#750#0" expanded="true" />
             <element signature="e#776#777#0" expanded="true" />
+            <element signature="method#createEnumerator#0;class#CustomSource#0" />
             <element signature="e#1457#1458#0" expanded="true" />
             <element signature="e#1484#1485#0" expanded="true" />
             <element signature="e#2669#2670#0" expanded="true" />
@@ -878,12 +850,8 @@
             <element signature="e#611#612#0" expanded="true" />
             <element signature="e#642#643#0" expanded="true" />
             <element signature="e#675#676#0" expanded="true" />
-            <element signature="class#RangeSourceReader#0;class#CustomSource#0" />
-            <element signature="method#pollNext#0;class#RangeSourceReader#0;class#CustomSource#0" />
-            <element signature="e#2089#2172#1" />
-            <element signature="e#2402#2540#1" />
             <element signature="method#snapshotState#0;class#RangeSourceReader#0;class#CustomSource#0" />
-            <element signature="e#5869#5870#0" expanded="true" />
+            <element signature="e#5891#5892#0" expanded="true" />
             <element signature="e#3336#3337#0" expanded="true" />
             <element signature="e#3399#3400#0" expanded="true" />
             <element signature="class#RangeSplitEnumerator#0;class#CustomSource#0" />
