@@ -103,7 +103,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613493062112" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613493105318" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -216,7 +216,7 @@
       <workItem from="1612707917933" duration="3636000" />
       <workItem from="1613197274338" duration="7744000" />
       <workItem from="1613216791363" duration="11584000" />
-      <workItem from="1613363002120" duration="34784000" />
+      <workItem from="1613363002120" duration="34866000" />
     </task>
     <task id="LOCAL-00001" summary="DataSet">
       <created>1612711476412</created>
@@ -302,11 +302,18 @@
       <option name="project" value="LOCAL" />
       <updated>1613492046390</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="deploy 策略">
+      <created>1613493077244</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1613493077244</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59225000" />
+    <option name="totallyTimeSpent" value="59307000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -363,7 +370,8 @@
     <MESSAGE value="ValueState" />
     <MESSAGE value="WatermarkStrategy" />
     <MESSAGE value="Serialization 策略" />
-    <option name="LAST_COMMIT_MESSAGE" value="Serialization 策略" />
+    <MESSAGE value="deploy 策略" />
+    <option name="LAST_COMMIT_MESSAGE" value="deploy 策略" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.12.1/flink-core-1.12.1.jar!/org/apache/flink/api/common/functions/MapFunction.class">
